@@ -1,0 +1,262 @@
+@font-face {
+    src: url("fonts/Maplestory Bold.ttf");
+    font-family: "Bold";
+}
+
+@font-face {
+    src: url("fonts/Maplestory Light.ttf");
+    font-family: "Light";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-image: url('img/배경.jpg');
+    background-repeat: no-repeat;
+    font-family: "Light";
+    height: 100%;
+    width: 100%;
+}
+
+.wrap {
+    position: relative;
+    min-height: 100%;
+}
+
+.header {
+    width: 180px;
+    background-color: white;
+    opacity: 0.5;
+    margin: auto;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Bold";
+    font-size: 25px;
+}
+
+.contents {
+    padding: 20px 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs .tab {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+    width: 90px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 2px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: none;
+    padding: 20px 20px;
+    background-color: white;
+    position: relative;
+    width: 50vh;
+    text-align: center;
+    outline: 2px solid black;
+}
+
+.items.active {
+    display: inline-block;
+}
+
+.items h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.visual-wrap {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-wrap .btn {
+    font-family: 'Light';
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    background-color: #d1cece;
+    height: 35px;
+    width: 100px;
+    padding: 0px 24px;
+    border-radius: 5px;
+}
+
+.btn:nth-child(1) {
+    border: 2px solid green;
+}
+
+.btn:nth-child(2) {
+    border: 2px solid red;
+}
+
+.circul-wrap {
+    position: relative;
+    height: 25vh;
+}
+
+.circul-wrap p {
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 24px;
+    top: -8px;
+    width: 50px;
+    z-index: 999;
+}
+
+.circul {
+    border: 2px dotted green;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.speech-bubble {
+    line-height: 30px;
+    display: none;
+    text-align: left;
+    height: 100%;
+}
+
+.speech-bubble input {
+    font-family: "Light";
+    border: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+
+.middle-sort {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.middle-sort div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#tab3 .visual-wrap div img {
+    margin: 0 auto;
+    display: block;
+}
+
+#tab3 .visual-wrap div input {
+    margin-top: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #383941;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+}
+
+.footer-text {
+    font-family: none;
+    font-size: 13px;
+    text-align: center;
+    line-height: 2;
+    padding: 12px 24px;
+}
+
+.footer-img {
+    display: flex;
+    width: 200px;
+}
+
+.footer-img a {
+    margin: auto;
+}
+
+.footer-img img {
+    width: 36px;
+}
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 500px) {
+
+
+    .items {
+        width: 40vh;
+    }
+
+    #tab3 .visual-wrap div img {
+        width: 250px;
+    }
+
+    .speech-bubble {
+        font-size: 0.9rem;
+    }
+
+    .footer-text {
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .footer-img {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .items {
+        height: 60vh;
+    }
+
+    .btn-wrap {
+        margin-top: 12px;
+    }
+
+    .circul-wrap {
+        margin-top: 24px;
+    }
+
+    .speech-bubble input {
+        font-size: 0.8rem;
+    }
+}

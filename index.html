@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"">
+  <title>코젬 분해기</title>
+  <link rel=" stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+
+        <div class="header">
+            <h1>코젬 분해기</h1>
+        </div>
+
+        <div class="contents">
+
+            <div class="tabs">
+
+                <div class="tab" data-tab-target="#tab1">
+                    <p>강화코어</p>
+                </div>
+
+                <div class="tab" data-tab-target="#tab2">
+                    <p>스킬코어</p>
+                </div>
+
+                <div class="tab" data-tab-target="#tab3">
+                    <p>특수코어</p>
+                </div>
+
+            </div>
+
+            <div class="content">
+
+                <div id="tab1" data-tab-content class="items active">
+                    <h1>가지고 있는 강화코어의 레벨은?</h1>
+                    <div class="visual-wrap">
+                        <div>
+                            <img src="src/img/코젬.png" alt="">
+                            <input id="op1" type="text" size="5" maxlength="2" />
+                        </div>
+
+                        <div class="btn-wrap">
+
+                            <button class="btn" onclick="item1();">분해</button>
+                            <button class="btn" onclick="reset()">다시하기</button>
+                        </div>
+                    </div>
+                    <div class="circul-wrap">
+                        <p>결과</p>
+                        <div class="circul">
+                            <div class="speech-bubble" id="box1">
+                                <div class="middle-sort">
+
+                                    <div>
+                                        강화코어 분해시 얻는 조각수: <input id="result" type="text" size="5" readonly /><br />
+                                        얻은 조각으로 제작 가능한 코어 젬스톤: <input id="result2" type="text" size="5" readonly />
+                                        <br />
+                                        코어젬스톤을 제작하고 남은 조각수: <input id="result3" type="text" size="5" readonly />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="tab2" data-tab-content class="items">
+                    <h1>가지고 있는 스킬코어의 레벨은?</h1>
+                    <div class="visual-wrap">
+
+                        <div>
+                            <img src="src/img/경코젬.png" alt="">
+                            <input id="op2" type="text" size="5" maxlength="2" />
+                        </div>
+
+                        <div class="btn-wrap">
+
+                            <button class="btn" onclick="item2();">분해</button>
+                            <button class="btn" onclick="reset2()">다시하기</button>
+                        </div>
+                    </div>
+                    <div class="circul-wrap">
+                        <p>결과</p>
+                        <div class="circul">
+                            <div class="speech-bubble" id="box2">
+                                <div class="middle-sort">
+
+                                    <div>
+                                        스킬코어 분해시 얻는 조각수: <input id="result4" type="text" size="5" readonly /> <br />
+                                        얻은 조각으로 제작 가능한 코어 젬스톤: <input id="result5" type="text" size="5" readonly />
+                                        <br />
+                                        코어젬스톤을 제작하고 남은 조각수: <input id="result6" type="text" size="5" readonly />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="tab3" data-tab-content class="items">
+                    <h1>분해할려는 특수코어의 개수는?</h1>
+                    <p>※최대 20개까지 입력가능</p>
+                    <div class="visual-wrap">
+
+                        <div>
+                            <img src="src/img/특수코어.jpg" alt="">
+                            <input id="op3" type="text" size="7" maxlength="5"> 개
+                        </div>
+
+                        <div class="btn-wrap">
+
+                            <button class="btn" onclick="item3();">분해</button>
+                            <button class="btn" onclick="reset3();">다시하기</button>
+                        </div>
+                    </div>
+                    <div class="circul-wrap">
+                        <p>결과</p>
+                        <div class="circul">
+                            <div class="speech-bubble" id="box3">
+
+                                <div class="middle-sort">
+                                    <div>
+                                        특수코어 분해시 얻는 조각수: <input type="text" id="result7" size="5" readonly><br>
+                                        얻은 조각으로 제작 가능한 코어 젬스톤: <input type="text" id="result8" size="5" readonly /><br>
+                                        코어젬스톤을 제작하고 남은 조각수: <input type="text" id="result9" size="5" readonly /><br>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <footer class="footer">
+
+            <div class="footer-text">
+                코젬분해기© Copyright 2022, All Rights Reserved <br>
+                인천광역시 부평구 부개로12 | 오상추(주) <br>
+                010-6415-4735, <a href="mailto:ohsangchu@naver.com">ohsangchu@naver.com</a> | version : 1.01
+            </div>
+
+            <div class="footer-img">
+                <a href="https://www.instagram.com/ohsangchu/"><img src="src/img/instagram.png"></a>
+                <a href="https://blog.naver.com/ohsangchu"><img src="src/img/blog.png"></a>
+                <a href="https://github.com/dhtmdcjf2002"><img src="src/img/github.png"></a>
+            </div>
+
+        </footer>
+    </div>
+</body>
+<script src="src/index.js"></script>
+
+</html>
