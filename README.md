@@ -9,7 +9,7 @@
 
 
 사용언어
-![html-5](https://user-images.githubusercontent.com/84269336/176995310-eef97d77-f153-4c1b-94fd-51ed84392a70.png)
+#E34F26
 ![css-3](https://user-images.githubusercontent.com/84269336/176995340-b843e3f3-00e9-4d1f-b57d-8229bd17fc32.png)
 ![js](https://user-images.githubusercontent.com/84269336/176995344-ac632715-c5c4-49ca-b32e-c17fbb8252c9.png)
 
