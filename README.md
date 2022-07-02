@@ -9,7 +9,9 @@
 
 
 사용언어
-Html, css, JavaScript
+![html-5](https://user-images.githubusercontent.com/84269336/176995310-eef97d77-f153-4c1b-94fd-51ed84392a70.png)
+![css-3](https://user-images.githubusercontent.com/84269336/176995340-b843e3f3-00e9-4d1f-b57d-8229bd17fc32.png)
+![js](https://user-images.githubusercontent.com/84269336/176995344-ac632715-c5c4-49ca-b32e-c17fbb8252c9.png)
 
 후기
 본 프로젝트는 퍼블리싱 연습 + JS 연습겸 아주 좋은 경험이었다.
