@@ -13,16 +13,10 @@
 '메이플스토리'라는 게임에서 영감을 얻어 '코(어)젬(스톤)분해기' 라는 웹을 한번 만들어 보았다.
 
 
-## 사용언어 <br>
-<br>
-<br>
-<div style="display:flex;">
-<img width="200px;" src="https://user-images.githubusercontent.com/84269336/177006714-a5122527-33fb-426d-8457-c18cd9a3a49f.png">
-<img width="200px;" src="https://user-images.githubusercontent.com/84269336/176995340-b843e3f3-00e9-4d1f-b57d-8229bd17fc32.png">
-<img width="200px;" src="https://user-images.githubusercontent.com/84269336/176995344-ac632715-c5c4-49ca-b32e-c17fbb8252c9.png">
-</div>
-<br>
-<br>
+## 사용언어
+| <img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" width="50px" height="50px"  /> | <img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" width="50px" height="50px" /> | <img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" width="50px" height="50px" /> |
+| :--------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------: |
+|                                                             Html                                                             |                                                                                         CSS                                                                                         |                                                           JavaScript                                                           |
 
 ## 후기<br>
 본 프로젝트는 퍼블리싱과 자바스크립트를 연습할 수 있는 아주 좋은 경험이었다.<br>
